@@ -10,7 +10,7 @@ st.write(
 )
 
 name_on_smoothie = st.text_input("Name on Smoothie")
-st.write("The name on your sommothie will be: ", name_on_smoothie)
+st.write("The name on your smmothie will be: ", name_on_smoothie)
 
 cnx = st.connection("snowflake")
 session = cnx.session()
